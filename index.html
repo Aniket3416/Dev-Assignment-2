@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+function out() {
+  var x = document.forms["myForm"]["fname"].value;
+  document.getElementById("output").innerHTML ="You Wrote: "+x;
+}
+            
+</script>
+    <title>Dev Assign</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a href="#bio1">Me</a></li>
+            <li><a href="#bio2" >Achievements</a></li>
+            <li><a href="#bio3" >Hobbies</a></li>
+            <li><a href="#bio4" >Aim</a></li>
+            <li style="float: right"><a href="#last" >Contact Me</a></li>
+            <li style="float: right"><a href="#forms" >Comments</a></li>
+            </ul>
+        <div class="head">
+            <br><br><br><br><br><br>
+        <img class="mypic" src="IMG_20181210_173435.jpg">
+            <br><br>
+            <h2 class="name">Aniket Modi</h2>
+            <br><br><br><br><br>
+        </div>
+        <br>
+        <hr id ="bio1">
+        <div  class="bio1">
+            <p >Hi. This is Aniket Modi. 18, young and charming :p. I've chosen to be an Electrical Engineer. I'm pursuing my B.Tech from the Indian Institute of Technology, Delhi. You'll find out more about me in the subsequent text.</p>
+        </div>
+        
+        <hr id ="bio2">
+        <br><br>
+        <div  class="bio2">
+            <div class="bio21">
+        <h2  style="text-align: center; font-family: cursive">My Achievements</h2><br>
+            <p>My Academic achievements include a decent rank in JEE-397 and a below average rank in NEET. I passed my 10th ICSE boards with a 95% score and 12th CBSE boards also with 95%. I'm a KVPY scholar too.</p>
+            <p>Being a district Table Tennis player, I love playing TT and can play it all day long. Nothing much to say more :( .</p><br>
+            <p>P.S.- I got a good SG in my first sem at IITD.</p></div>
+            <img class="im21" src="bio2.jpg">
+        </div>
+        <br><br>
+         <hr>
+        <br><br><hr id ="bio3"><br><br>
+        <div  class="bio3">
+            <div class="bio31">
+        <h2 style="text-align: center; font-family: cursive">What do I like to do?</h2><br>
+            <p>I'm an explorer. I like to try new stuff. Be it art,tech or food. Coding wasn't my thing from the start, but I developed a great interest in coding here at IIT.</p>
+            <p>I'm really into art though. You can often find me playing with cutters and papers.</p>
+            <p>Presently. I'm enjoying myself learning web development.</p></div>
+            <img class="im31" src="hobbies.jpg">
+        </div>
+        <br><br><hr><br><br>
+        <hr id ="bio4">
+        <br><br>
+        <div class="bio4">
+        <div class="bio41 b1">
+            <h2 style="text-align: center; font-family: cursive">What I want from life</h2><br>
+            <p>As everyone else, I want to live a peaceful and healthy life, but with lots and lots of money XD. I'd like to be a job creator rather than job seeker, so I want to have my own start-up, but I've not thought much about it. But whatever I'll do, I'll make sure that I give my hundred percent to it. In the end, we just have to make our parents proud!!</p>
+            </div>
+            <img class="bio41 b2" src="last.jpg" style="border-radius: 250000px">
+            <div class="bio41 b3">
+            <p style="text-align: center; font-family:fantasy">Just Remember....There are no limits on what you can accomplish, except the limits you place on your own thinking!!</p>
+                
+            </div>
+        </div>
+        <br><br><hr><br>
+        <br><hr id="forms"><br><br>
+        <div class="form">
+        <form name="myForm" >
+            <span class="name1">Say Something:</span> <br><br><input type="text" style="width:350px; padding: 8px 20px; border: 1px solid grey" name="fname" value="">
+  <input type="submit" onclick="out();return false" value="Submit" style="padding: 8px 12px;">
+</form>
+        
+        <br><p style="color: white; text-align: left" id="output"></p></div>
+    <br><br><hr id="last"><br>
+    <div class="site1">
+        <a href="https://www.facebook.com/"><img class="site2" src="facebook.png" ></a><a href="https://www.instagram.com/"><img class="site3" src="insta.jpg" ></a></div>
+        <br>
+    </body>
+</html>
